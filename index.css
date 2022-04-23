@@ -16,6 +16,17 @@ td:nth-child(1) {
   font-weight: bold;
 }
 
+
+th:nth-child(2),
+th:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+  text-align: center;
+}
+
 .no-js #loader {
   display: none;
 }
@@ -43,6 +54,7 @@ td:nth-child(1) {
   left: 0;
   z-index: 999999;
 }
+
 .hotline-phone-ring {
   position: relative;
   visibility: visible;
