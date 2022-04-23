@@ -27,6 +27,8 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="stylesheet" href="./index.css" />
+
     <link rel="icon" href="./img/logo.png" />
 
     <script async>
@@ -34,100 +36,37 @@
         $(".se-pre-con").fadeOut("slow");
       };
     </script>
-
-    <style>
-      html,
-      body {
-        font-family: "Comfortaa", cursive;
-      }
-
-      li {
-        list-style: none;
-        line-height: 200%;
-      }
-
-      .no-js #loader {
-        display: none;
-      }
-
-      .js #loader {
-        display: block;
-        position: absolute;
-        left: 100px;
-        top: 0;
-      }
-
-      .se-pre-con {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        z-index: 9999;
-        background: url(./img/preloader.gif) center no-repeat #fff;
-      }
-    </style>
   </head>
   <body>
     <div class="se-pre-con"></div>
-
-    <!-- <nav class="navbar navbar-expand-md bg-light">
-      <a class="navbar-brand" href="/">286cafe.com</a>
-
-      <button
-        class="navbar-toggler text-dark"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Đặt trên Grab Food</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Shopee Food</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Baemin</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
 
     <div class="container">
       <div class="jumbotron bg-white text-center">
         <img class="mb-3" src="./img/logo.png" />
 
-        <!-- <p class="my-3">
-          Không chỉ tôn vinh cà phê và truyền thống mà còn mang lại cảm giác kết
-          nối mọi người - một cốc của hạnh phúc
-        </p> -->
+        <h2 class="mb-3">Nhận order một ly hạnh phúc</h2>
 
-        <h1 class="mb-3">Nhận order một ly hạnh phúc</h1>
+        <p>sắp có trên GrabFood, ShopeeFood, Foody, Baemin</p>
 
         <!-- <div class="row">
           <div class="col-md-3">
             <a class="nav-link" href="#">
-              <img class="rounded-lg" src="./img/grab-food.jpg" />
+              <img class="rounded-lg" src="./img/brands/grab-food.jpg" />
             </a>
           </div>
           <div class="col-md-3">
             <a class="nav-link" href="#">
-              <img class="rounded-lg" src="./img/shopee-food.jpg" />
+              <img class="rounded-lg" src="./img/brands/shopee-food.jpg" />
             </a>
           </div>
           <div class="col-md-3">
             <a class="nav-link" href="#">
-              <img class="rounded-lg" src="./img/baemin.jpg" />
+              <img class="rounded-lg" src="./img/brands/foody.jpg" />
             </a>
           </div>
           <div class="col-md-3">
             <a class="nav-link" href="#">
-              <img class="rounded-lg" src="./img/foody.jpg" />
+              <img class="rounded-lg" src="./img/brands/baemin.jpg" />
             </a>
           </div>
         </div> -->
@@ -167,154 +106,134 @@
     </div>
 
     <div class="container my-5">
-      <h3 class="text-center mb-4">Đồ uống</h3>
+      <h3 class="text-center">Đồ uống</h3>
 
-      <iframe src="./menu.pdf" width="100%" height="500px"> </iframe>
+      <p class="text-center small mb-4">đơn vị giá: nghìn đồng</p>
 
-      <!-- <div class="table-responsive">
+      <!-- <iframe src="./menu.pdf" width="100%" height="500px"> </iframe> -->
+
+      <div class="table-responsive">
         <table class="table table-hover">
           <thead>
             <tr>
               <th style="width: 50%"></th>
-              <th style="width: 25%">Size S</th>
-              <th style="width: 25%">Size M</th>
+              <th style="width: 25%">S</th>
+              <th style="width: 25%">M</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Trà sữa 286</td>
-              <td>29.000đ</td>
-              <td>35.000đ</td>
-            </tr>
-            <tr>
-              <td>Cafe đá</td>
-              <td>15.000đ</td>
-              <td>19.000đ</td>
-            </tr>
-            <tr>
-              <td>Cafe sữa/Bạc xỉu</td>
-              <td>18.000đ</td>
-              <td>23.000đ</td>
-            </tr>
-            <tr>
-              <td>Cafe sữa tươi</td>
-              <td>19.000đ</td>
-              <td>25.000đ</td>
-            </tr>
-            <tr>
-              <td>Cafe sữa tươi sương sáo</td>
-              <td>25.000đ</td>
-              <td>29.000đ</td>
-            </tr>
-            <tr>
-              <td>Milo sữa tươi</td>
-              <td>19.000đ</td>
-              <td>25.000đ</td>
+              <td>
+                Trà sữa 286 <span class="badge badge-pill badge-danger">♥</span>
+              </td>
+              <td>29</td>
+              <td>35</td>
             </tr>
             <tr>
               <td>Matcha latte</td>
-              <td>29.000đ</td>
-              <td>35.000đ</td>
+              <td>29</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>
+                Cà phê sữa tươi sương sáo
+                <span class="badge badge-pill badge-danger">♥</span>
+              </td>
+              <td>25</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td>
+                Cà phê sữa tươi
+                <span class="badge badge-pill badge-danger">♥</span>
+              </td>
+              <td>19</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Milo sữa</td>
+              <td>19</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Cam vắt</td>
+              <td>19</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Cà phê sữa đá</td>
+              <td>18</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>
+                Cà phê đá <span class="badge badge-pill badge-danger">♥</span>
+              </td>
+              <td>15</td>
+              <td>19</td>
             </tr>
             <tr>
               <td>Sương sáo hạt é</td>
-              <td>15.000đ</td>
-              <td>19.000đ</td>
+              <td>15</td>
+              <td>19</td>
             </tr>
             <tr>
-              <td>Nước sâm 12 vị</td>
-              <td>15.000đ</td>
+              <td>
+                Sâm bông cúc
+                <span class="badge badge-pill badge-danger">♥</span>
+              </td>
+              <td>15</td>
               <td></td>
             </tr>
             <tr>
-              <td>Trà lài ủ lạnh</td>
-              <td>10.000đ</td>
+              <td>Trà ủ lạnh</td>
+              <td>9</td>
               <td></td>
             </tr>
           </tbody>
         </table>
-      </div> -->
-
-      <!-- <div class="row">
-        <div class="col-sm-3 p-4">
-          <div class="card pt-4">
-            <img
-              class="card-img-top"
-              src="./img/chocofrappe.png"
-              alt="Card image"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Bạc xỉu</h4>
-              <p class="card-text">30.000đ</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4">
-          <div class="card pt-4">
-            <img
-              class="card-img-top"
-              src="./img/chocofrappe.png"
-              alt="Card image"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Bạc xỉu</h4>
-              <p class="card-text">30.000đ</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4">
-          <div class="card pt-4">
-            <img
-              class="card-img-top"
-              src="./img/chocofrappe.png"
-              alt="Card image"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Bạc xỉu</h4>
-              <p class="card-text">30.000đ</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4">
-          <div class="card pt-4">
-            <img
-              class="card-img-top"
-              src="./img/chocofrappe.png"
-              alt="Card image"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Bạc xỉu</h4>
-              <p class="card-text">30.000đ</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
+      </div>
     </div>
 
     <div class="container-fluid bg-secondary text-white p-5 mt-5">
-      <div class="row">
+      <div class="row pb-5">
         <div class="col-sm-2">
           <h4>286cafe</h4>
         </div>
 
         <div class="col-sm-10">
-          <li><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; 098 771 8868</li>
           <li>
-            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; 23-25 Đường 320
+            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; 23-25 đường 320
             Phạm Hùng P5 Q8 TP.HCM
           </li>
           <li>
-            <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;
-            <i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;
             <a
               href="https://tiktok.com/@286cafe"
               style="color: #fff"
               target="_blank"
             >
-              <i class="fa-brands fa-tiktok"></i>
+              <i class="fa-brands fa-tiktok"></i>&nbsp;&nbsp; Follow us on
+              TikTok
             </a>
           </li>
         </div>
+      </div>
+    </div>
+
+    <div class="hotline-phone-ring-wrap">
+      <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+          <a href="tel:0987718868" class="pps-btn-img">
+            <img src="./img/icon-call.png" alt="Gọi điện thoại" width="50" />
+          </a>
+        </div>
+      </div>
+      <div class="hotline-bar">
+        <a href="tel:0987718868">
+          <span class="text-hotline">098 771 8868</span>
+        </a>
       </div>
     </div>
   </body>
