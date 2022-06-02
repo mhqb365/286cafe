@@ -1,0 +1,11 @@
+{
+  "name": "286cafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mhqb365/286cafe.git",
+  "author": "mhqb365 <mhqb365@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "git add . && git commit -m :rocket: && git push"
+  }
+}
