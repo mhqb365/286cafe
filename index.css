@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
-  font-family: "Comfortaa", cursive;
+  font-family: Tahoma, sans-serif;
 }
 
 a:any-link {
@@ -45,4 +50,13 @@ td:nth-child(3) {
   height: 100%;
   z-index: 9999;
   background: url(./img/preloader.gif) center no-repeat #fff;
+}
+
+.text-header-left {
+  color: #f89b22;
+}
+
+.text-header-right {
+  color: #84b9c1;
+  line-height: 120%;
 }
